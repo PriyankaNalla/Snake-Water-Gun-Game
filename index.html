@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Water Gun Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">Let's Play Snake Water Gun</div>
+    <div class="images">
+        <button  class="btn" id="btn1"><img src="./images/snake.jpg" id="snake" class="image" alt="rock"></button>
+         <button class="btn" id="btn2"><img src="./images/water.jpg" id="water" class="image" alt="paper"></button>
+         <button class="btn" id="btn3"> <img src="./images/gun.jpg" id="gun" class="image" alt="scissor"></button>
+       </div>
+    <div class="score">
+
+        <div class="yscore">
+            <div class="yynumber" id="ynumber"></div>
+            <h2 id="h2y">Your Score</h2>
+        </div>
+        <div class="cscore">
+            <div class="ccnumber" id="cnumber"></div>
+            <h2 id="h2c">Comp Score</h2>
+        </div>
+    </div>
+    <div class="resultBox">
+        <span id="result"></span>
+    </div>
+    <div class="stop">
+        <button id="stop" onclick="stop()">Stop</button>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
